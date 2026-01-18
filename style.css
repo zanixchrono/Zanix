@@ -167,56 +167,96 @@
         }
 
         /* Hero Carousel Styles */
-        .hero-carousel {
-            width: 100%;
-            margin-top: 76px;
-        }
+.hero-carousel {
+    width: 100%;
+    margin-top: 76px;
+}
 
-        .carousel-item {
-            height: 90%;
-            min-height: 500px;
-            position: relative;
-        }
+/* FULL HEIGHT FIX */
+.hero-carousel,
+.hero-carousel .carousel,
+.hero-carousel .carousel-inner,
+.hero-carousel .carousel-item {
+    height: 100vh;
+    position: relative;
+}
 
-        .carousel-item img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            filter: brightness(0.7);
-        }
+/* IMAGE FULL COVER – NO BLACK BARS */
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.7);
+}
 
-        .carousel-caption {
-            top: 50%;
-            transform: translateY(-50%);
-            bottom: auto;
-            text-align: center;
-            animation: fadeInUp 1s ease;
-        }
+/* PERFECT CENTER TEXT */
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: auto;
+    right: auto;
+    text-align: center;
+    animation: fadeInUp 1s ease;
+    width: 100%;
+    padding: 0 15px;
+}
 
-        .carousel-caption h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: 4rem;
-            font-weight: 700;
-            text-shadow: 0 0 30px rgba(255, 215, 0, 0.6);
-            margin-bottom: 1rem;
-        }
+/* TEXT STYLES */
+.carousel-caption h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    font-weight: 700;
+    text-shadow: 0 0 30px rgba(255, 215, 0, 0.6);
+    margin-bottom: 1rem;
+}
 
-        .carousel-caption p {
-            font-size: 1.5rem;
-            font-weight: 300;
-            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
-        }
+.carousel-caption p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+}
 
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(-50%);
-            }
-        }
+/* MOBILE OPTIMIZATION */
+@media (max-width: 768px) {
+    .hero-carousel,
+    .hero-carousel .carousel,
+    .hero-carousel .carousel-inner,
+    .hero-carousel .carousel-item {
+        height: 40vh;
+    }
+
+    .carousel-caption h1 {
+        font-size: 2.2rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-caption h1 {
+        font-size: 1.7rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.9rem;
+    }
+}
+
+/* ANIMATION FIX */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -40%);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+}
 
 /* Products Section */
 #products {
@@ -614,15 +654,15 @@
         /* Responsive Design */
         @media (max-width: 768px) {
             body {
-        padding-top: 170px
+        padding-top: 30px
     }
-            .carousel-caption h1 {
+            /* .carousel-caption h1 {
                 font-size: 2.5rem;
             }
 
             .carousel-caption p {
                 font-size: 1rem;
-            }
+            } */
 
             .section-title {
                 font-size: 2rem;
@@ -637,7 +677,7 @@
             }
         }
 
-        @media (max-width: 576px) {
+        /* @media (max-width: 576px) {
             .carousel-caption h1 {
                 font-size: 1.8rem;
             }
@@ -645,7 +685,7 @@
             .product-card img {
                 height: 200px;
             }
-        }
+        } */
 
 
         .satisfied-customers h2 {
@@ -673,10 +713,10 @@
     transform: scale(1.05);
 }
 
-.carousel-control-prev-icon,
+/* .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-color: #000; /* change icon color */
+    background-color: #5e5555; 
     border-radius: 50%;
     width: 40px;
     height: 40px;
-}
+} */
