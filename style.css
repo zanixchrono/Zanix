@@ -344,19 +344,19 @@
 
         /* Modal Styles */
         .modal-content {
-            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-            border: 2px solid #ffd700;
+            background: linear-gradient(135deg, #ffffff 0%, #ffffff 100%);
+            border: 2px solid #000000;
             border-radius: 15px;    
-            color: #fff;
+            color: #000000;
         }
 
         .modal-header {
-            border-bottom: 1px solid rgba(255, 215, 0, 0.3);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.3);
         }
 
         .modal-title {
             font-family: 'Playfair Display', serif;
-            color: #ffd700;
+            color: #000000;
         }
 
         .btn-close {
@@ -371,7 +371,7 @@
 
         .product-price {
             font-size: 2rem;
-            color: #ffd700;
+            color: #000000;
             font-weight: 700;
             margin: 1rem 0;
         }
@@ -393,29 +393,29 @@
         }
 
         .color-btn:hover, .color-btn.active {
-            border-color: #ffd700;
+            border-color: #000000;
             transform: scale(1.1);
-            box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
         }
 
         .form-label {
-            color: #ffd700;
+            color: #000000;
             font-weight: 600;
             margin-top: 1rem;
         }
 
         .form-control {
             background: rgba(255, 255, 255, 0.1);
-            border: 1px solid rgba(255, 215, 0, 0.3);
-            color: #fff;
+            border: 1px solid rgba(0, 0, 0, 0.3);
+            color: #000000;
             border-radius: 8px;
             padding: 0.75rem;
         }
 
         .form-control:focus {
             background: rgba(255, 255, 255, 0.15);
-            border-color: #ffd700;
-            color: #fff;
+            border-color: #000000;
+            color: #000000;
             box-shadow: 0 0 20px rgba(255, 215, 0, 0.2);
         }
 
@@ -424,8 +424,8 @@
         }
 
         .btn-order {
-            background: linear-gradient(135deg, #ffd700, #ffed4e);
-            color: #1a1a2e;
+            background: linear-gradient(135deg, #000000, #000000);
+            color: #ffffff;
             border: none;
             padding: 1rem 2rem;
             font-weight: 700;
@@ -437,7 +437,7 @@
 
         .btn-order:hover {
             transform: translateY(-3px);
-            box-shadow: 0 10px 30px rgba(255, 215, 0, 0.4);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
         }
 
         .confirmation-message {
@@ -547,6 +547,7 @@
 
 .payment-section {
     border: 1px solid #ddd;
+    color: #fff;
     border-radius: 8px;
     padding: 15px;
     background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
