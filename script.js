@@ -374,7 +374,80 @@ const products = [
     },
 
     cardImage: 'assets/ROLEX MASTERLOCK/IMG1.png'
+},
+{
+    id: 13,
+    name: 'Semi Automatic Rolex, Premium Master Copy, Twotone Color, Comes with Premium Packaging',
+    description: `
+    <br><h4>Description</h4>
+    Semi-automatic Rolex with premium packaging<br>
+    Rotating bezel & button push master lock<br>
+    Automatic movement with date adjustment<br>
+    Elegant two-tone design for daily & formal wear
+    `,
+    price: 'Rs. 3,800',
+
+    colors: [
+        { key: 'twotone', label: 'Two Tone', hex: '#FFD700' }
+    ],
+
+    images: {
+        twotone: [
+            'assets/ROLEX-SEMIAUTOMETIC/IMG1.png',
+            'assets/ROLEX-SEMIAUTOMETIC/IMG2.png',
+            'assets/ROLEX-SEMIAUTOMETIC/IMG3.png',
+            'assets/ROLEX-SEMIAUTOMETIC/IMG4.png',
+            'assets/ROLEX-SEMIAUTOMETIC/IMG5.png',
+            'assets/ROLEX-SEMIAUTOMETIC/IMG6.png'
+        ]
+    },
+
+    cardImage: 'assets/ROLEX-SEMIAUTOMETIC/IMG1.png'
+},
+{
+    id: 14,
+    name: 'Tissort Premium Quality Watch Stainless Steel, Stainless Steel and Master Lock',
+    description: `
+    <br><h4>Description</h4>
+    Premium stainless steel Tissort watch<br>
+    Master lock design with elegant finish<br>
+    Lightweight and durable for daily wear<br>
+    Stylish for both casual & formal occasions
+    `,
+    price: 'Rs. 2,700',
+
+    colors: [
+        { key: 'black', label: 'Black', hex: '#000000' },
+        { key: 'silver', label: 'silver', hex: '#C0C0C0' },
+        { key: 'darkblue', label: 'Dark Blue', hex: '#0B3C5D' },
+        { key: 'tiffany', label: 'Tiffany Blue', hex: '#81D8D0' },
+        { key: 'darkgreen', label: 'Dark Green', hex: '#1F3D2B' }
+    ],
+
+    images: {
+        black: [
+            'assets/TISSORT/IMG5.png',
+            'assets/TISSORT/IMG2.png',
+            'assets/TISSORT/IMG3.png'
+        ],
+        silver: [
+            'assets/TISSORT/IMG4.png'
+        ],
+        darkblue: [
+            'assets/TISSORT/IMG6.png'
+        ],
+        tiffany: [
+            'assets/TISSORT/IMG7.png'
+        ],
+        darkgreen: [
+            'assets/TISSORT/IMG1.png'
+        ]
+    },
+
+    cardImage: 'assets/TISSORT/IMG5.png'
 }
+
+
 
 
 
