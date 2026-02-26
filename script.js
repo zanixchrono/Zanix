@@ -13,7 +13,7 @@
 const products = [
     {
         id: 1,
-        name: 'Hublot Master Lock | Premium Stainless Steel | Date Working | Water-Resistant',
+        name: 'Hublot Master Lock',
         description: `
         <br><h4>Description</h4>
         Premium Stainless Steel Case<br>
@@ -45,7 +45,7 @@ const products = [
 
     {
         id: 2,
-        name: 'Careera Leather Straps Watch With Master Lock, With Date & Day Working',
+        name: 'Careera Leather Straps',
         description: `
         <br><h4>Description</h4>
         Premium leather straps<br>
@@ -82,33 +82,37 @@ const products = [
     },
 
     {
-        id: 3,
-        name: 'Rolex Yacht-Master | Gold Edition',
-        description: `
-        <br><h4>Description</h4>
-        Premium Gold Finish<br>
-        Stainless Steel Body<br>
-        Date Working<br>
-        Luxury Feel<br>
-        <b>Limited Stock Available</b>
-        `,
-        price: 'Rs. 2,699',
-        colors: [
-            { key: 'gold', label: 'Gold', hex: '#D4AF37' }
-        ],
-        images: {
-            gold: [
-                'assets/ROLEX-YACH-MASTER/IMG1.png',
-                'assets/ROLEX-YACH-MASTER/IMG2.png',
-                'assets/ROLEX-YACH-MASTER/IMG3.png',
-                'assets/ROLEX-YACH-MASTER/IMG4.png'
-            ]
-        },
-        cardImage: 'assets/ROLEX-YACH-MASTER/IMG1.png'
+    id: 3,
+    name: 'Semi Automatic Rolex',
+    description: `
+    <br><h4>Description</h4>
+    Semi-automatic Rolex with premium packaging<br>
+    Rotating bezel & button push master lock<br>
+    Automatic movement with date adjustment<br>
+    Elegant two-tone design for daily & formal wear
+    `,
+    price: 'Rs. 3,800',
+
+    colors: [
+        { key: 'twotone', label: 'Two Tone', hex: '#FFD700' }
+    ],
+
+    images: {
+        twotone: [
+            'assets/ROLEX-SEMIAUTOMETIC/IMG1.png',
+            'assets/ROLEX-SEMIAUTOMETIC/IMG2.png',
+            'assets/ROLEX-SEMIAUTOMETIC/IMG3.png',
+            'assets/ROLEX-SEMIAUTOMETIC/IMG4.png',
+            'assets/ROLEX-SEMIAUTOMETIC/IMG5.png',
+            'assets/ROLEX-SEMIAUTOMETIC/IMG6.png'
+        ]
     },
+
+    cardImage: 'assets/ROLEX-SEMIAUTOMETIC/IMG1.png'
+},
     {
     id: 4,
-    name: 'Patek Philippe Wristwatch - Waterproof Stainless Steel Formal Watch for Men',
+    name: 'Patek Philippe Stainless Steel',
     description: `
     <br><h4>Description</h4>
     Premium leather straps<br>
@@ -146,42 +150,40 @@ const products = [
 },
 {
     id: 5,
-    name: "Richard Mille Style Men's Watch, Good Quality Straps Watch",
+    name: 'Cartier Tank',
     description: `
     <br><h4>Description</h4>
-    Stylish Richard Mille inspired design<br>
-    Comfortable & durable quality straps<br>
-    Lightweight feel for daily wear<br>
-    Smart casual & formal look<br>
-    <b>Best value for money – Limited stock available!</b>
+    Classic Cartier Tank inspired design<br>
+    Elegant rectangular dial with premium finish<br>
+    Comfortable strap with refined detailing<br>
+    Perfect for formal & luxury styling
     `,
-    price: 'Rs. 1,350',
+    price: 'Rs. 3,200',
 
     colors: [
-        { key: 'blue', label: 'Blue', hex: '#1E4ED8' },
-        { key: 'darkgreen', label: 'Dark Green', hex: '#1F3D2B' },
-        { key: 'grey', label: 'Grey', hex: '#7A7A7A' }
+        { key: 'black', label: 'Black', hex: '#000000' },
+        { key: 'brown', label: 'Brown', hex: '#6F4E37' }
     ],
 
     images: {
-        blue: [
-            'assets/RECHARD-MIL/IMG1.png',
-            'assets/RECHARD-MIL/IMG2.png'
+        black: [
+            'assets/CARTIER-TANK/IMG1.png',
+            'assets/CARTIER-TANK/IMG2.png',
+            'assets/CARTIER-TANK/IMG3.png',
+            'assets/CARTIER-TANK/IMG4.png'
         ],
-        darkgreen: [
-            'assets/RECHARD-MIL/IMG3.png',
-            'assets/RECHARD-MIL/IMG4.png'
-        ],
-        grey: [
-            'assets/RECHARD-MIL/IMG5.png'
+        brown: [
+            'assets/CARTIER-TANK/IMG5.png',
+            'assets/CARTIER-TANK/IMG6.png',
+            'assets/CARTIER-TANK/IMG7.png'
         ]
     },
 
-    cardImage: 'assets/RECHARD-MIL/IMG1.png'
+    cardImage: 'assets/CARTIER-TANK/IMG1.png'
 },
 {
     id: 6,
-    name: 'Hublot Chain Watch for Men & Boys - Luxurious Stainless Steel Chronograph with Date',
+    name: 'Hublot Heavy Chain Watch for Mens',
     description: `
     <br><h4>Description</h4>
     Premium stainless steel chain watch<br>
@@ -209,7 +211,7 @@ const products = [
 },
 {
     id: 7,
-    name: 'Rolex Chain Watch In Two Tone Black & Silver, Heavy Watch With Master Lock, Date Working With Premium Packaging',
+    name: 'Rolex Chain Watch In Two Tone Black & Silver',
     description: `
     <br><h4>Description</h4>
     Heavy two-tone chain watch with premium finish<br>
@@ -235,178 +237,8 @@ const products = [
     cardImage: 'assets/ROLEX-CHAIN/IMG1.png'
 },
 {
-    id: 8,
-    name: 'Aura Watch for Boys & Girls – Lightweight Carbon Fiber Arabic Dial Watch | Arabic Numerals Watch',
-    description: `
-    <br><h4>Description</h4>
-    Lightweight carbon fiber style watch<br>
-    Clear Arabic numerals for easy reading<br>
-    Comfortable strap for daily wear<br>
-    Simple, modern look for boys & girls
-    `,
-    price: 'Rs. 950',
-
-    colors: [
-        { key: 'black', label: 'Black', hex: '#000000' }
-    ],
-
-    images: {
-        black: [
-            'assets/AURA FIBER/IMG1.png',
-            'assets/AURA FIBER/IMG2.png',
-            'assets/AURA FIBER/IMG3.png'
-        ]
-    },
-
-    cardImage: 'assets/AURA FIBER/IMG1.png'
-},
-{
-    id: 9,
-    name: 'Aura Watch for Men & Women – Heavy Weight 145g Black Arabic Dial Metal Aura Watch - Trendy Design',
-    description: `
-    <br><h4>Description</h4>
-    Heavy weight metal body with premium feel<br>
-    Bold black Arabic dial design<br>
-    Stylish and durable for daily & formal wear<br>
-    Trendy look for men & women
-    `,
-    price: 'Rs. 2,850',
-
-    colors: [
-        { key: 'black', label: 'Black', hex: '#000000' }
-    ],
-
-    images: {
-        black: [
-            'assets/AURA METAL/IMG1.png',
-            'assets/AURA METAL/IMG2.png',
-            'assets/AURA METAL/IMG3.png',
-            'assets/AURA METAL/IMG4.png'
-        ]
-    },
-
-    cardImage: 'assets/AURA METAL/IMG1.png'
-},
-{
-    id: 10,
-    name: 'T24 Champion Edition Smart Watch 7 in 1 Straps | Ultra Smart Watch Series 8 | Smart Watch for Boys & Girls',
-    description: `
-    <br><h4>Description</h4>
-    Complete Combo Set – 1 smartwatch, 6 stylish straps, 1 magnetic charger, and user manual<br>
-    Multiple strap options for different styles<br>
-    Sleek aluminum alloy frame with large display<br>
-    Customizable watch faces<br>
-    Long battery life up to 1 day<br>
-    Water & dust resistant
-    `,
-    price: 'Rs. 2,999',
-
-    colors: [
-        { key: 'black', label: 'Black', hex: '#000000' }
-    ],
-
-    images: {
-        black: [
-            'assets/SMART WATCH/IMG1.png',
-            'assets/SMART WATCH/IMG2.png',
-            'assets/SMART WATCH/IMG3.png',
-            'assets/SMART WATCH/IMG4.png',
-            'assets/SMART WATCH/IMG5.png'
-        ]
-    },
-
-    cardImage: 'assets/SMART WATCH/IMG1.png'
-},
-{
-    id: 11,
-    name: 'Gold Rolex Datejust, Light Weight Watch, Comes With Rolex Box Premium Packaging, Date Working With Auto Adjustment',
-    description: `
-    <br><h4>Description</h4>
-    Lightweight gold Rolex-inspired watch<br>
-    Comes with premium Rolex box<br>
-    Automatic date adjustment<br>
-    Elegant design for daily & formal wear<br>
-    Perfect gift choice
-    `,
-    price: 'Rs. 1,600',
-
-    colors: [
-        { key: 'gold', label: 'Gold', hex: '#FFD700' }
-    ],
-
-    images: {
-        gold: [
-            'assets/ROLEX FULL GOLD/IMG1.png',
-            'assets/ROLEX FULL GOLD/IMG2.png',
-            'assets/ROLEX FULL GOLD/IMG3.png',
-            'assets/ROLEX FULL GOLD/IMG4.png',
-            'assets/ROLEX FULL GOLD/IMG5.png'
-        ]
-    },
-
-    cardImage: 'assets/ROLEX FULL GOLD/IMG1.png'
-},
-{
-    id: 12,
-    name: 'Rolex Chain Watch With Master Lock Two Tone Color Silver & Gold Rotating Bezel, Luminous Dial & Date Working',
-    description: `
-    <br><h4>Description</h4>
-    Two-tone silver & gold chain watch<br>
-    Luminous dial for easy reading<br>
-    Master lock design with date function<br>
-    Durable stainless steel build<br>
-    Elegant & luxury look
-    `,
-    price: 'Rs. 3,700',
-
-    colors: [
-        { key: 'silver', label: 'Silver', hex: '#C0C0C0' }
-    ],
-
-    images: {
-        silver: [
-            'assets/ROLEX MASTERLOCK/IMG1.png',
-            'assets/ROLEX MASTERLOCK/IMG2.png',
-            'assets/ROLEX MASTERLOCK/IMG3.png',
-            'assets/ROLEX MASTERLOCK/IMG4.png',
-            'assets/ROLEX MASTERLOCK/IMG5.png'
-        ]
-    },
-
-    cardImage: 'assets/ROLEX MASTERLOCK/IMG1.png'
-},
-{
-    id: 13,
-    name: 'Semi Automatic Rolex, Premium Master Copy, Twotone Color, Comes with Premium Packaging',
-    description: `
-    <br><h4>Description</h4>
-    Semi-automatic Rolex with premium packaging<br>
-    Rotating bezel & button push master lock<br>
-    Automatic movement with date adjustment<br>
-    Elegant two-tone design for daily & formal wear
-    `,
-    price: 'Rs. 3,800',
-
-    colors: [
-        { key: 'twotone', label: 'Two Tone', hex: '#FFD700' }
-    ],
-
-    images: {
-        twotone: [
-            'assets/ROLEX-SEMIAUTOMETIC/IMG1.png',
-            'assets/ROLEX-SEMIAUTOMETIC/IMG2.png',
-            'assets/ROLEX-SEMIAUTOMETIC/IMG3.png',
-            'assets/ROLEX-SEMIAUTOMETIC/IMG4.png',
-            'assets/ROLEX-SEMIAUTOMETIC/IMG5.png',
-            'assets/ROLEX-SEMIAUTOMETIC/IMG6.png'
-        ]
-    },
-
-    cardImage: 'assets/ROLEX-SEMIAUTOMETIC/IMG1.png'
-},
-{
     id: 14,
-    name: 'Tissort Premium Quality Watch Stainless Steel, Stainless Steel and Master Lock',
+    name: 'Tissort Stainless Steel Premium Quality',
     description: `
     <br><h4>Description</h4>
     Premium stainless steel Tissort watch<br>
@@ -445,7 +277,208 @@ const products = [
     },
 
     cardImage: 'assets/TISSORT/IMG5.png'
-}
+},
+{
+    id: 9,
+    name: 'Heavy Weight Black Aura Watch, 145g ',
+    description: `
+    <br><h4>Description</h4>
+    Heavy weight metal body with premium feel<br>
+    Bold black Arabic dial design<br>
+    Stylish and durable for daily & formal wear<br>
+    Trendy look for men & women
+    `,
+    price: 'Rs. 2,850',
+
+    colors: [
+        { key: 'black', label: 'Black', hex: '#000000' }
+    ],
+
+    images: {
+        black: [
+            'assets/AURA METAL/IMG1.png',
+            'assets/AURA METAL/IMG2.png',
+            'assets/AURA METAL/IMG3.png',
+            'assets/AURA METAL/IMG4.png'
+        ]
+    },
+
+    cardImage: 'assets/AURA METAL/IMG1.png'
+},
+{
+    id: 10,
+    name: 'T24 Champion Edition Smart Watch 7 in 1 Straps',
+    description: `
+    <br><h4>Description</h4>
+    Complete Combo Set – 1 smartwatch, 6 stylish straps, 1 magnetic charger, and user manual<br>
+    Multiple strap options for different styles<br>
+    Sleek aluminum alloy frame with large display<br>
+    Customizable watch faces<br>
+    Long battery life up to 1 day<br>
+    Water & dust resistant
+    `,
+    price: 'Rs. 2,999',
+
+    colors: [
+        { key: 'black', label: 'Black', hex: '#000000' }
+    ],
+
+    images: {
+        black: [
+            'assets/SMART WATCH/IMG1.png',
+            'assets/SMART WATCH/IMG2.png',
+            'assets/SMART WATCH/IMG3.png',
+            'assets/SMART WATCH/IMG4.png',
+            'assets/SMART WATCH/IMG5.png'
+        ]
+    },
+
+    cardImage: 'assets/SMART WATCH/IMG1.png'
+},
+{
+    id: 11,
+    name: 'Golden Rolex, Light Weight Watch',
+    description: `
+    <br><h4>Description</h4>
+    Lightweight gold Rolex-inspired watch<br>
+    Comes with premium Rolex box<br>
+    Automatic date adjustment<br>
+    Elegant design for daily & formal wear<br>
+    Perfect gift choice
+    `,
+    price: 'Rs. 1,600',
+
+    colors: [
+        { key: 'gold', label: 'Gold', hex: '#FFD700' }
+    ],
+
+    images: {
+        gold: [
+            'assets/ROLEX FULL GOLD/IMG1.png',
+            'assets/ROLEX FULL GOLD/IMG2.png',
+            'assets/ROLEX FULL GOLD/IMG3.png',
+            'assets/ROLEX FULL GOLD/IMG4.png',
+            'assets/ROLEX FULL GOLD/IMG5.png'
+        ]
+    },
+
+    cardImage: 'assets/ROLEX FULL GOLD/IMG1.png'
+},
+{
+    id: 12,
+    name: 'Rolex Master Two Tone Silver&Gold',
+    description: `
+    <br><h4>Description</h4>
+    Two-tone silver & gold chain watch<br>
+    Luminous dial for easy reading<br>
+    Master lock design with date function<br>
+    Durable stainless steel build<br>
+    Elegant & luxury look
+    `,
+    price: 'Rs. 3,700',
+
+    colors: [
+        { key: 'silver', label: 'Silver', hex: '#C0C0C0' }
+    ],
+
+    images: {
+        silver: [
+            'assets/ROLEX MASTERLOCK/IMG1.png',
+            'assets/ROLEX MASTERLOCK/IMG2.png',
+            'assets/ROLEX MASTERLOCK/IMG3.png',
+            'assets/ROLEX MASTERLOCK/IMG4.png',
+            'assets/ROLEX MASTERLOCK/IMG5.png'
+        ]
+    },
+
+    cardImage: 'assets/ROLEX MASTERLOCK/IMG1.png'
+},
+{
+        id: 13,
+        name: 'Rolex Yacht-Master | Gold Edition',
+        description: `
+        <br><h4>Description</h4>
+        Premium Gold Finish<br>
+        Stainless Steel Body<br>
+        Date Working<br>
+        Luxury Feel<br>
+        <b>Limited Stock Available</b>
+        `,
+        price: 'Rs. 2,699',
+        colors: [
+            { key: 'gold', label: 'Gold', hex: '#D4AF37' }
+        ],
+        images: {
+            gold: [
+                'assets/ROLEX-YACH-MASTER/IMG1.png',
+                'assets/ROLEX-YACH-MASTER/IMG2.png',
+                'assets/ROLEX-YACH-MASTER/IMG3.png',
+                'assets/ROLEX-YACH-MASTER/IMG4.png'
+            ]
+        },
+        cardImage: 'assets/ROLEX-YACH-MASTER/IMG1.png'
+    },
+{
+    id: 14,
+    name: 'Aura Watch In Fiber Light Weight',
+    description: `
+    <br><h4>Description</h4>
+    Lightweight carbon fiber style watch<br>
+    Clear Arabic numerals for easy reading<br>
+    Comfortable strap for daily wear<br>
+    Simple, modern look for boys & girls
+    `,
+    price: 'Rs. 950',
+
+    colors: [
+        { key: 'black', label: 'Black', hex: '#000000' }
+    ],
+
+    images: {
+        black: [
+            'assets/AURA FIBER/IMG1.png',
+            'assets/AURA FIBER/IMG2.png',
+            'assets/AURA FIBER/IMG3.png'
+        ]
+    },
+
+    cardImage: 'assets/AURA FIBER/IMG1.png'
+},
+{
+    id: 15,
+    name: "Richard Mille Style Men's Watch",
+    description: `
+    <br><h4>Description</h4>
+    Stylish Richard Mille inspired design<br>
+    Comfortable & durable quality straps<br>
+    Lightweight feel for daily wear<br>
+    Smart casual & formal look<br>
+    <b>Best value for money – Limited stock available!</b>
+    `,
+    price: 'Rs. 1,350',
+
+    colors: [
+        { key: 'blue', label: 'Blue', hex: '#1E4ED8' },
+        { key: 'darkgreen', label: 'Dark Green', hex: '#1F3D2B' },
+        { key: 'grey', label: 'Grey', hex: '#7A7A7A' }
+    ],
+
+    images: {
+        blue: [
+            'assets/RECHARD-MIL/IMG1.png',
+            'assets/RECHARD-MIL/IMG2.png'
+        ],
+        darkgreen: [
+            'assets/RECHARD-MIL/IMG3.png',
+            'assets/RECHARD-MIL/IMG4.png'
+        ],
+        grey: [
+            'assets/RECHARD-MIL/IMG5.png'
+        ]
+    },
+
+    cardImage: 'assets/RECHARD-MIL/IMG1.png'
+},
 
 
 
