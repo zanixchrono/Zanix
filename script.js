@@ -43,43 +43,41 @@ const products = [
         cardImage: 'assets/HUBLOT/IMG4.png'
     },
 
-    {
-        id: 2,
-        name: 'Careera Leather Straps',
-        description: `
-        <br><h4>Description</h4>
-        Premium leather straps<br>
-        Elegant butterfly push button lock<br>
-        Stainless steel case (front & back)<br>
-        Day & Date working<br>
-        Comfortable for daily & office wear<br>
-        <b>Special Discount Offer – Get yours now at a limited-time price!</b>
-        `,
-        price: 'Rs. 2,450',
-        colors: [
-            { key: 'black', label: 'Black', hex: '#000000' },
-            { key: 'brown', label: 'Brown', hex: '#8B4513' },
-            { key: 'darkBrown', label: 'Dark Brown', hex: '#5C4033' }
+{
+    id: 2,
+    name: 'Tissort Chronograph Working',
+    description: `
+    <br><h4>Description</h4>
+    Premium chronograph working watch with stylish design<br>
+    Durable build with comfortable straps<br>
+    Functional sub-dials for sporty look<br>
+    Perfect for both casual & formal wear
+    `,
+    price: 'Rs. 3,800',
+
+    colors: [
+        { key: 'black', label: 'Black', hex: '#000000' },
+        { key: 'brown', label: 'Brown', hex: '#6F4E37' }
+    ],
+
+    images: {
+        black: [
+            'assets/TISSORT-CRONOGRAPH/IMG1.jpeg',
+            'assets/TISSORT-CRONOGRAPH/IMG2.jpeg',
+            'assets/TISSORT-CRONOGRAPH/IMG3.jpeg',
+            'assets/TISSORT-CRONOGRAPH/IMG4.jpeg',
+            'assets/TISSORT-CRONOGRAPH/IMG5.jpeg'
         ],
-        images: {
-            black: [
-                'assets/CAREERA/IMG1.png',
-                'assets/CAREERA/IMG2.png',
-                'assets/CAREERA/IMG3.png',
-                'assets/CAREERA/IMG4.png',
-                'assets/CAREERA/IMG5.png'
-            ],
-            brown: [
-                'assets/CAREERA/IMG6.png',
-                'assets/CAREERA/IMG7.png',
-                'assets/CAREERA/IMG8.png'
-            ],
-            darkBrown: [
-                'assets/CAREERA/IMG9.png'
-            ]
-        },
-        cardImage: 'assets/CAREERA/IMG2.png'
+        brown: [
+            'assets/TISSORT-CRONOGRAPH/IMG7.jpeg',
+            'assets/TISSORT-CRONOGRAPH/IMG8.jpeg',
+            'assets/TISSORT-CRONOGRAPH/IMG9.jpeg',
+            'assets/TISSORT-CRONOGRAPH/IMG10.jpeg'
+        ]
     },
+
+    cardImage: 'assets/TISSORT-CRONOGRAPH/IMG1.jpeg'
+},
 
     {
     id: 3,
@@ -210,34 +208,44 @@ const products = [
     cardImage: 'assets/HUBLOT-CHAIN/IMG1.png'
 },
 {
-    id: 7,
-    name: 'Rolex Chain Watch In Two Tone Black & Silver',
-    description: `
-    <br><h4>Description</h4>
-    Heavy two-tone chain watch with premium finish<br>
-    Master lock design with date working<br>
-    Durable stainless steel build<br>
-    Luxury look with premium packaging
-    `,
-    price: 'Rs. 2,950',
-
-    colors: [
-        { key: 'black', label: 'Black', hex: '#000000' }
-    ],
-
-    images: {
-        black: [
-            'assets/ROLEX-CHAIN/IMG1.png',
-            'assets/ROLEX-CHAIN/IMG2.png',
-            'assets/ROLEX-CHAIN/IMG3.png',
-            'assets/ROLEX-CHAIN/IMG4.png'
-        ]
+        id: 7,
+        name: 'Careera Leather Straps',
+        description: `
+        <br><h4>Description</h4>
+        Premium leather straps<br>
+        Elegant butterfly push button lock<br>
+        Stainless steel case (front & back)<br>
+        Day & Date working<br>
+        Comfortable for daily & office wear<br>
+        <b>Special Discount Offer – Get yours now at a limited-time price!</b>
+        `,
+        price: 'Rs. 2,450',
+        colors: [
+            { key: 'black', label: 'Black', hex: '#000000' },
+            { key: 'brown', label: 'Brown', hex: '#8B4513' },
+            { key: 'darkBrown', label: 'Dark Brown', hex: '#5C4033' }
+        ],
+        images: {
+            black: [
+                'assets/CAREERA/IMG1.png',
+                'assets/CAREERA/IMG2.png',
+                'assets/CAREERA/IMG3.png',
+                'assets/CAREERA/IMG4.png',
+                'assets/CAREERA/IMG5.png'
+            ],
+            brown: [
+                'assets/CAREERA/IMG6.png',
+                'assets/CAREERA/IMG7.png',
+                'assets/CAREERA/IMG8.png'
+            ],
+            darkBrown: [
+                'assets/CAREERA/IMG9.png'
+            ]
+        },
+        cardImage: 'assets/CAREERA/IMG2.png'
     },
-
-    cardImage: 'assets/ROLEX-CHAIN/IMG1.png'
-},
 {
-    id: 14,
+    id: 8,
     name: 'Tissort Stainless Steel Premium Quality',
     description: `
     <br><h4>Description</h4>
@@ -479,7 +487,33 @@ const products = [
 
     cardImage: 'assets/RECHARD-MIL/IMG1.png'
 },
+{
+    id: 16,
+    name: 'Rolex Chain Watch In Two Tone Black & Silver',
+    description: `
+    <br><h4>Description</h4>
+    Heavy two-tone chain watch with premium finish<br>
+    Master lock design with date working<br>
+    Durable stainless steel build<br>
+    Luxury look with premium packaging
+    `,
+    price: 'Rs. 2,950',
 
+    colors: [
+        { key: 'black', label: 'Black', hex: '#000000' }
+    ],
+
+    images: {
+        black: [
+            'assets/ROLEX-CHAIN/IMG1.png',
+            'assets/ROLEX-CHAIN/IMG2.png',
+            'assets/ROLEX-CHAIN/IMG3.png',
+            'assets/ROLEX-CHAIN/IMG4.png'
+        ]
+    },
+
+    cardImage: 'assets/ROLEX-CHAIN/IMG1.png'
+}
 
 
 
