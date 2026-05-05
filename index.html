@@ -102,66 +102,55 @@ src="https://www.facebook.com/tr?id=1610225096560890&ev=PageView&noscript=1"
 <section class="satisfied-customers py-5">
     <div class="container">
         <h2 class="text-center mb-4">Satisfied Customers</h2>
-        <div id="customerCarousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-
-                <!-- First Slide -->
-                <div class="carousel-item active">
-                    <div class="row g-3 justify-content-center">
-                        <div class="col-md-4">
-                            <div class="card">
-                                <img src="assets/reviews/IMG1.png" class="card-img-top" alt="Customer Screenshot 1">
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <img src="assets/reviews/IMG2.png" class="card-img-top" alt="Customer Screenshot 2">
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <img src="assets/reviews/IMG3.png" class="card-img-top" alt="Customer Screenshot 3">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Second Slide -->
-                <div class="carousel-item">
-                    <div class="row g-3 justify-content-center">
-                        <div class="col-md-4">
-                            <div class="card">
-                                <img src="assets/reviews/IMG4.png" class="card-img-top" alt="Customer Screenshot 4">
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <img src="assets/reviews/IMG5.png" class="card-img-top" alt="Customer Screenshot 5">
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <img src="assets/reviews/IMG6.png" class="card-img-top" alt="Customer Screenshot 6">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Add more slides as needed -->
-
-            </div>
-
-            <!-- Carousel Controls -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#customerCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#customerCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
+        <div class="card2">
+            <div class="card1" onclick="openGallery('images')">
+  <div class="content1">
+    
+    <!-- BACK SIDE -->
+    <div class="back1">
+      <div class="back1-content1">
+        <div class="circle1"></div>
+        <div class="circle1" id="bottom1"></div>
+        <div class="circle1" id="right1"></div>
+        <h3>Pictures</h3>
+      </div>
     </div>
+
+    <!-- FRONT SIDE -->
+   <div class="front1">
+  <div class="image-box">
+    <h3 class="see-more">See More</h3>
+    <img src="assets/reviews/IMG1.png" alt="watch" class="img">
+  </div>
+</div>
+
+  </div>
+</div>
+
+    <div class="card1" onclick="openGallery('videos')">
+  <div class="content1">
+    
+    <!-- BACK SIDE -->
+    <div class="back1">
+      <div class="back1-content1">
+        <div class="circle1"></div>
+        <div class="circle1" id="bottom1"></div>
+        <div class="circle1" id="right1"></div>
+        <h3>Videos</h3>
+      </div>
+    </div>
+
+    <!-- FRONT SIDE -->
+    <div class="front1">
+      <div class="image-box">
+    <h3 class="see-more">See Videos</h3>
+      <img src="assets/reviews/videobackground.jpg" alt="watch" class="img">
+    </div>
+
+  </div>
+</div>
+</div>
+</div>
 </section>
 <div>
   <br>
@@ -397,6 +386,39 @@ src="https://www.facebook.com/tr?id=1610225096560890&ev=PageView&noscript=1"
     </div>
    </div>
   </div><!-- Bootstrap 5 JS -->
+  <!-- GALLERY MODAL -->
+<div class="modal fade" id="mediaModal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 id="mediaTitle">Gallery</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+
+        <!-- IMAGE SLIDER -->
+        <div id="imageSlider" class="carousel slide">
+          <div class="carousel-inner" id="imageContainer"></div>
+
+          <button class="carousel-control-prev" data-bs-target="#imageSlider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+
+          <button class="carousel-control-next" data-bs-target="#imageSlider" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+
+        <!-- VIDEO SLIDER -->
+        <div id="videoContainer" style="display:none;"></div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
   <script src="script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
  <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9a7c5b4e801b24d9',t:'MTc2NDY5NDU3Ny4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>

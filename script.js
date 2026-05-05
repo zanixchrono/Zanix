@@ -22,9 +22,10 @@ const products = [
         Date Working with Auto Adjustment<br>
         Water-Resistant<br>
         Perfect Gift Choice<br>
-        <b>Special Discount Offer – Get yours now at a limited-time price!</b>
+        <b>Special Discount Offer  Get yours now at a limited-time price!</b>
         `,
-        price: 'Rs. 2,300',
+         price: 2300,
+         oldPrice: 3286,
         colors: [
             { key: 'black', label: 'Black', hex: '#000000' },
             { key: 'silver', label: 'Silver', hex: '#C0C0C0' }
@@ -53,7 +54,8 @@ const products = [
     Functional sub-dials for sporty look<br>
     Perfect for both casual & formal wear
     `,
-    price: 'Rs. 3,800',
+    price: 3800,
+    oldPrice: 5429,
 
     colors: [
         { key: 'black', label: 'Black', hex: '#000000' },
@@ -79,35 +81,35 @@ const products = [
     cardImage: 'assets/TISSORT-CRONOGRAPH/IMG1.jpeg'
 },
 
-    {
-    id: 3,
-    name: 'Semi Automatic Rolex',
-    description: `
-    <br><h4>Description</h4>
-    Semi-automatic Rolex with premium packaging<br>
-    Rotating bezel & button push master lock<br>
-    Automatic movement with date adjustment<br>
-    Elegant two-tone design for daily & formal wear
-    `,
-    price: 'Rs. 3,800',
+//     {
+//     id: 3,
+//     name: 'Semi Automatic Rolex',
+//     description: `
+//     <br><h4>Description</h4>
+//     Semi-automatic Rolex with premium packaging<br>
+//     Rotating bezel & button push master lock<br>
+//     Automatic movement with date adjustment<br>
+//     Elegant two-tone design for daily & formal wear
+//     `,
+//     price: 'Rs. 3,800',
 
-    colors: [
-        { key: 'twotone', label: 'Two Tone', hex: '#FFD700' }
-    ],
+//     colors: [
+//         { key: 'twotone', label: 'Two Tone', hex: '#FFD700' }
+//     ],
 
-    images: {
-        twotone: [
-            'assets/ROLEX-SEMIAUTOMETIC/IMG1.png',
-            'assets/ROLEX-SEMIAUTOMETIC/IMG2.png',
-            'assets/ROLEX-SEMIAUTOMETIC/IMG3.png',
-            'assets/ROLEX-SEMIAUTOMETIC/IMG4.png',
-            'assets/ROLEX-SEMIAUTOMETIC/IMG5.png',
-            'assets/ROLEX-SEMIAUTOMETIC/IMG6.png'
-        ]
-    },
+//     images: {
+//         twotone: [
+//             'assets/ROLEX-SEMIAUTOMETIC/IMG1.png',
+//             'assets/ROLEX-SEMIAUTOMETIC/IMG2.png',
+//             'assets/ROLEX-SEMIAUTOMETIC/IMG3.png',
+//             'assets/ROLEX-SEMIAUTOMETIC/IMG4.png',
+//             'assets/ROLEX-SEMIAUTOMETIC/IMG5.png',
+//             'assets/ROLEX-SEMIAUTOMETIC/IMG6.png'
+//         ]
+//     },
 
-    cardImage: 'assets/ROLEX-SEMIAUTOMETIC/IMG1.png'
-},
+//     cardImage: 'assets/ROLEX-SEMIAUTOMETIC/IMG1.png'
+// },
     {
     id: 4,
     name: 'Patek Philippe Stainless Steel',
@@ -120,7 +122,9 @@ const products = [
     Comfortable for daily & office wear<br>
     <b>Special Discount Offer – Get yours now at a limited-time price!</b>
     `,
-    price: 'Rs. 2,899',
+    price:  2900,
+    oldPrice: 4143,
+
 
     colors: [
         { key: 'black', label: 'Black', hex: '#000000' },
@@ -156,7 +160,8 @@ const products = [
     Comfortable strap with refined detailing<br>
     Perfect for formal & luxury styling
     `,
-    price: 'Rs. 3,200',
+    price: 3000,
+    oldPrice: 4286,
 
     colors: [
         { key: 'black', label: 'Black', hex: '#000000' },
@@ -189,7 +194,8 @@ const products = [
     Bold luxury look for men & boys<br>
     Perfect for daily wear & special occasions
     `,
-    price: 'Rs. 2,899',
+    price:  2900,
+    oldPrice: 4143,
 
     colors: [
         { key: 'black', label: 'Black', hex: '#000000' }
@@ -219,7 +225,8 @@ const products = [
         Comfortable for daily & office wear<br>
         <b>Special Discount Offer – Get yours now at a limited-time price!</b>
         `,
-        price: 'Rs. 2,450',
+        price:  2400,
+        oldPrice: 3428,
         colors: [
             { key: 'black', label: 'Black', hex: '#000000' },
             { key: 'brown', label: 'Brown', hex: '#8B4513' },
@@ -254,7 +261,9 @@ const products = [
     Lightweight and durable for daily wear<br>
     Stylish for both casual & formal occasions
     `,
-    price: 'Rs. 2,700',
+    price: 3000,
+    oldPrice: 4286,
+
 
     colors: [
         { key: 'black', label: 'Black', hex: '#000000' },
@@ -296,7 +305,8 @@ const products = [
     Stylish and durable for daily & formal wear<br>
     Trendy look for men & women
     `,
-    price: 'Rs. 2,850',
+    price:  2900,
+    oldPrice: 4143,
 
     colors: [
         { key: 'black', label: 'Black', hex: '#000000' }
@@ -313,65 +323,65 @@ const products = [
 
     cardImage: 'assets/AURA METAL/IMG1.png'
 },
-{
-    id: 10,
-    name: 'T24 Champion Edition Smart Watch 7 in 1 Straps',
-    description: `
-    <br><h4>Description</h4>
-    Complete Combo Set – 1 smartwatch, 6 stylish straps, 1 magnetic charger, and user manual<br>
-    Multiple strap options for different styles<br>
-    Sleek aluminum alloy frame with large display<br>
-    Customizable watch faces<br>
-    Long battery life up to 1 day<br>
-    Water & dust resistant
-    `,
-    price: 'Rs. 2,999',
+// {
+//     id: 10,
+//     name: 'T24 Champion Edition Smart Watch 7 in 1 Straps',
+//     description: `
+//     <br><h4>Description</h4>
+//     Complete Combo Set – 1 smartwatch, 6 stylish straps, 1 magnetic charger, and user manual<br>
+//     Multiple strap options for different styles<br>
+//     Sleek aluminum alloy frame with large display<br>
+//     Customizable watch faces<br>
+//     Long battery life up to 1 day<br>
+//     Water & dust resistant
+//     `,
+//     price: 'Rs. 2,999',
 
-    colors: [
-        { key: 'black', label: 'Black', hex: '#000000' }
-    ],
+//     colors: [
+//         { key: 'black', label: 'Black', hex: '#000000' }
+//     ],
 
-    images: {
-        black: [
-            'assets/SMART WATCH/IMG1.png',
-            'assets/SMART WATCH/IMG2.png',
-            'assets/SMART WATCH/IMG3.png',
-            'assets/SMART WATCH/IMG4.png',
-            'assets/SMART WATCH/IMG5.png'
-        ]
-    },
+//     images: {
+//         black: [
+//             'assets/SMART WATCH/IMG1.png',
+//             'assets/SMART WATCH/IMG2.png',
+//             'assets/SMART WATCH/IMG3.png',
+//             'assets/SMART WATCH/IMG4.png',
+//             'assets/SMART WATCH/IMG5.png'
+//         ]
+//     },
 
-    cardImage: 'assets/SMART WATCH/IMG1.png'
-},
-{
-    id: 11,
-    name: 'Golden Rolex, Light Weight Watch',
-    description: `
-    <br><h4>Description</h4>
-    Lightweight gold Rolex-inspired watch<br>
-    Comes with premium Rolex box<br>
-    Automatic date adjustment<br>
-    Elegant design for daily & formal wear<br>
-    Perfect gift choice
-    `,
-    price: 'Rs. 1,600',
+//     cardImage: 'assets/SMART WATCH/IMG1.png'
+// },
+// {
+//     id: 11,
+//     name: 'Golden Rolex, Light Weight Watch',
+//     description: `
+//     <br><h4>Description</h4>
+//     Lightweight gold Rolex-inspired watch<br>
+//     Comes with premium Rolex box<br>
+//     Automatic date adjustment<br>
+//     Elegant design for daily & formal wear<br>
+//     Perfect gift choice
+//     `,
+//     price: 'Rs. 1,600',
 
-    colors: [
-        { key: 'gold', label: 'Gold', hex: '#FFD700' }
-    ],
+//     colors: [
+//         { key: 'gold', label: 'Gold', hex: '#FFD700' }
+//     ],
 
-    images: {
-        gold: [
-            'assets/ROLEX FULL GOLD/IMG1.png',
-            'assets/ROLEX FULL GOLD/IMG2.png',
-            'assets/ROLEX FULL GOLD/IMG3.png',
-            'assets/ROLEX FULL GOLD/IMG4.png',
-            'assets/ROLEX FULL GOLD/IMG5.png'
-        ]
-    },
+//     images: {
+//         gold: [
+//             'assets/ROLEX FULL GOLD/IMG1.png',
+//             'assets/ROLEX FULL GOLD/IMG2.png',
+//             'assets/ROLEX FULL GOLD/IMG3.png',
+//             'assets/ROLEX FULL GOLD/IMG4.png',
+//             'assets/ROLEX FULL GOLD/IMG5.png'
+//         ]
+//     },
 
-    cardImage: 'assets/ROLEX FULL GOLD/IMG1.png'
-},
+//     cardImage: 'assets/ROLEX FULL GOLD/IMG1.png'
+// },
 {
     id: 12,
     name: 'Rolex Master Two Tone Silver&Gold',
@@ -383,7 +393,8 @@ const products = [
     Durable stainless steel build<br>
     Elegant & luxury look
     `,
-    price: 'Rs. 3,700',
+    price: 3800,
+    oldPrice: 5429,
 
     colors: [
         { key: 'silver', label: 'Silver', hex: '#C0C0C0' }
@@ -412,7 +423,8 @@ const products = [
         Luxury Feel<br>
         <b>Limited Stock Available</b>
         `,
-        price: 'Rs. 2,699',
+        price: 2500,
+        oldPrice: 3571,
         colors: [
             { key: 'gold', label: 'Gold', hex: '#D4AF37' }
         ],
@@ -426,103 +438,94 @@ const products = [
         },
         cardImage: 'assets/ROLEX-YACH-MASTER/IMG1.png'
     },
-{
-    id: 14,
-    name: 'Aura Watch In Fiber Light Weight',
-    description: `
-    <br><h4>Description</h4>
-    Lightweight carbon fiber style watch<br>
-    Clear Arabic numerals for easy reading<br>
-    Comfortable strap for daily wear<br>
-    Simple, modern look for boys & girls
-    `,
-    price: 'Rs. 950',
+// {
+//     id: 14,
+//     name: 'Aura Watch In Fiber Light Weight',
+//     description: `
+//     <br><h4>Description</h4>
+//     Lightweight carbon fiber style watch<br>
+//     Clear Arabic numerals for easy reading<br>
+//     Comfortable strap for daily wear<br>
+//     Simple, modern look for boys & girls
+//     `,
+//     price: 'Rs. 950',
 
-    colors: [
-        { key: 'black', label: 'Black', hex: '#000000' }
-    ],
+//     colors: [
+//         { key: 'black', label: 'Black', hex: '#000000' }
+//     ],
 
-    images: {
-        black: [
-            'assets/AURA FIBER/IMG1.png',
-            'assets/AURA FIBER/IMG2.png',
-            'assets/AURA FIBER/IMG3.png'
-        ]
-    },
+//     images: {
+//         black: [
+//             'assets/AURA FIBER/IMG1.png',
+//             'assets/AURA FIBER/IMG2.png',
+//             'assets/AURA FIBER/IMG3.png'
+//         ]
+//     },
 
-    cardImage: 'assets/AURA FIBER/IMG1.png'
-},
-{
-    id: 15,
-    name: "Richard Mille Style Men's Watch",
-    description: `
-    <br><h4>Description</h4>
-    Stylish Richard Mille inspired design<br>
-    Comfortable & durable quality straps<br>
-    Lightweight feel for daily wear<br>
-    Smart casual & formal look<br>
-    <b>Best value for money – Limited stock available!</b>
-    `,
-    price: 'Rs. 1,350',
+//     cardImage: 'assets/AURA FIBER/IMG1.png'
+// },
+// {
+//     id: 15,
+//     name: "Richard Mille Style Men's Watch",
+//     description: `
+//     <br><h4>Description</h4>
+//     Stylish Richard Mille inspired design<br>
+//     Comfortable & durable quality straps<br>
+//     Lightweight feel for daily wear<br>
+//     Smart casual & formal look<br>
+//     <b>Best value for money – Limited stock available!</b>
+//     `,
+//     price: 'Rs. 1,350',
 
-    colors: [
-        { key: 'blue', label: 'Blue', hex: '#1E4ED8' },
-        { key: 'darkgreen', label: 'Dark Green', hex: '#1F3D2B' },
-        { key: 'grey', label: 'Grey', hex: '#7A7A7A' }
-    ],
+//     colors: [
+//         { key: 'blue', label: 'Blue', hex: '#1E4ED8' },
+//         { key: 'darkgreen', label: 'Dark Green', hex: '#1F3D2B' },
+//         { key: 'grey', label: 'Grey', hex: '#7A7A7A' }
+//     ],
 
-    images: {
-        blue: [
-            'assets/RECHARD-MIL/IMG1.png',
-            'assets/RECHARD-MIL/IMG2.png'
-        ],
-        darkgreen: [
-            'assets/RECHARD-MIL/IMG3.png',
-            'assets/RECHARD-MIL/IMG4.png'
-        ],
-        grey: [
-            'assets/RECHARD-MIL/IMG5.png'
-        ]
-    },
+//     images: {
+//         blue: [
+//             'assets/RECHARD-MIL/IMG1.png',
+//             'assets/RECHARD-MIL/IMG2.png'
+//         ],
+//         darkgreen: [
+//             'assets/RECHARD-MIL/IMG3.png',
+//             'assets/RECHARD-MIL/IMG4.png'
+//         ],
+//         grey: [
+//             'assets/RECHARD-MIL/IMG5.png'
+//         ]
+//     },
 
-    cardImage: 'assets/RECHARD-MIL/IMG1.png'
-},
-{
-    id: 16,
-    name: 'Rolex Chain Watch In Two Tone Black & Silver',
-    description: `
-    <br><h4>Description</h4>
-    Heavy two-tone chain watch with premium finish<br>
-    Master lock design with date working<br>
-    Durable stainless steel build<br>
-    Luxury look with premium packaging
-    `,
-    price: 'Rs. 2,950',
+//     cardImage: 'assets/RECHARD-MIL/IMG1.png'
+// },
+// {
+//     id: 16,
+//     name: 'Rolex Chain Watch In Two Tone Black & Silver',
+//     description: `
+//     <br><h4>Description</h4>
+//     Heavy two-tone chain watch with premium finish<br>
+//     Master lock design with date working<br>
+//     Durable stainless steel build<br>
+//     Luxury look with premium packaging
+//     `,
+//     price: 'Rs. 2,950',
 
-    colors: [
-        { key: 'black', label: 'Black', hex: '#000000' }
-    ],
+//     colors: [
+//         { key: 'black', label: 'Black', hex: '#000000' }
+//     ],
 
-    images: {
-        black: [
-            'assets/ROLEX-CHAIN/IMG1.png',
-            'assets/ROLEX-CHAIN/IMG2.png',
-            'assets/ROLEX-CHAIN/IMG3.png',
-            'assets/ROLEX-CHAIN/IMG4.png'
-        ]
-    },
+//     images: {
+//         black: [
+//             'assets/ROLEX-CHAIN/IMG1.png',
+//             'assets/ROLEX-CHAIN/IMG2.png',
+//             'assets/ROLEX-CHAIN/IMG3.png',
+//             'assets/ROLEX-CHAIN/IMG4.png'
+//         ]
+//     },
 
-    cardImage: 'assets/ROLEX-CHAIN/IMG1.png'
-}
-
-
-
-
-
-
-
-
-
+//     cardImage: 'assets/ROLEX-CHAIN/IMG1.png'
+// }
 
 ];
 
@@ -540,20 +543,31 @@ function renderProducts() {
     const paginatedProducts = products.slice(start, end);
 
     paginatedProducts.forEach(product => {
-        const col = document.createElement('div');
-        col.className = 'col-12 col-sm-6 col-md-4 col-lg-3';
 
-        col.innerHTML = `
-            <div class="card product-card" onclick="openProductModal(${product.id})">
-                <img src="${product.cardImage}" class="card-img-top">
-                <div class="card-body">
-                    <h5 class="card-title">${product.name}</h5>
-                    <p><strong>${product.price}</strong></p>
-                </div>
+    const discount = 30;
+    const oldPrice = product.oldPrice || product.price;
+    const newPrice = Math.round(oldPrice * (1 - discount / 100));
+
+    const col = document.createElement('div');
+    col.className = 'col-12 col-sm-6 col-md-4 col-lg-3';
+
+    col.innerHTML = `
+        <div class="card product-card" onclick="openProductModal(${product.id})">
+            <img src="${product.cardImage}" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">${product.name}</h5>
+
+                <p class="price-box">
+                    <span class="old-price">Rs. ${oldPrice}</span>
+                    <span class="new-price">Rs. ${newPrice}</span>
+                    <span class="discount">${discount}% OFF</span>
+                </p>
+
             </div>
-        `;
-        container.appendChild(col);
-    });
+        </div>
+    `;
+    container.appendChild(col);
+});
 
     renderPagination();
 }
@@ -564,17 +578,33 @@ document.addEventListener('DOMContentLoaded', renderProducts);
 function changeQty(amount) {
     const qtyInput = document.getElementById('productQty');
     let qty = Number(qtyInput.value) + amount;
+
     if (qty < 1) qty = 1;
     qtyInput.value = qty;
 
-    const updatedPrice = basePrice * qty;
-    document.getElementById('modalPrice').textContent = `Rs ${updatedPrice}`;
+    const discount = 30;
+    const oldPrice = selectedProduct.oldPrice || selectedProduct.price;
+    const newPrice = Math.round(oldPrice * (1 - discount / 100));
+
+    const updatedPrice = newPrice * qty;
+
+    document.getElementById('modalPrice').innerHTML = `
+        <span class="old-price">Rs ${oldPrice * qty}</span>
+        <span class="new-price">Rs ${updatedPrice}</span>
+        <span class="discount">${discount}% OFF</span>
+    `;
 }
 
 
 function updateTotalPrice() {
     const qty = parseInt(document.getElementById('productQty').value);
-    const total = basePrice * qty;
+
+    const discount = 30;
+    const oldPrice = selectedProduct.oldPrice || selectedProduct.price;
+    const newPrice = Math.round(oldPrice * (1 - discount / 100));
+
+    const total = newPrice * qty;
+
     document.getElementById('modalTotalPrice').textContent = `Rs ${total}`;
 }
 
@@ -589,13 +619,23 @@ function openProductModal(productId) {
     document.getElementById('modalProductDesc').innerHTML = selectedProduct.description;
 
     // base price
-    basePrice = Number(selectedProduct.price.replace(/[^0-9]/g, ''));
+    basePrice = typeof selectedProduct.price === "string"
+    ? Number(selectedProduct.price.replace(/[^0-9]/g, ''))
+    : selectedProduct.price;
 
     // reset quantity
     document.getElementById('productQty').value = 1;
 
     // show price (same element used everywhere)
-    document.getElementById('modalPrice').textContent = `Rs ${basePrice}`;
+    const oldPrice = selectedProduct.oldPrice || basePrice;
+const discount = 30;
+const newPrice = Math.round(oldPrice * (1 - discount / 100));
+
+document.getElementById('modalPrice').innerHTML = `
+    <span class="old-price">Rs ${oldPrice}</span>
+    <span class="new-price">Rs ${newPrice}</span>
+    <span class="discount">${discount}% OFF</span>
+`;
 
     // colors
     const colorOptions = document.getElementById('colorOptions');
@@ -862,3 +902,64 @@ paymentRadios.forEach(radio => {
         }
     });
 });
+
+
+const galleryData = {
+    images: [
+        "assets/reviews/IMG2.png",
+        "assets/reviews/IMG3.png",
+        "assets/reviews/IMG4.png",
+        "assets/reviews/IMG5.png",
+        "assets/reviews/IMG6.png",
+    ],
+    videos: [
+        "assets/reviews/video1.mp4",
+        "assets/reviews/video2.mp4",
+        "assets/reviews/video3.mp4"
+    ]
+};
+function openGallery(type) {
+
+    const modal = new bootstrap.Modal(document.getElementById('mediaModal'));
+    const imageContainer = document.getElementById('imageContainer');
+    const videoContainer = document.getElementById('videoContainer');
+    const title = document.getElementById('mediaTitle');
+
+    imageContainer.innerHTML = '';
+    videoContainer.innerHTML = '';
+
+    if (type === 'images') {
+
+        title.innerText = "Pictures";
+
+        videoContainer.style.display = "none";
+        document.getElementById('imageSlider').style.display = "block";
+
+        galleryData.images.forEach((img, index) => {
+            imageContainer.innerHTML += `
+                <div class="carousel-item ${index === 0 ? 'active' : ''}">
+                    <img src="${img}" class="d-block w-100">
+                </div>
+            `;
+        });
+
+    }
+
+    if (type === 'videos') {
+
+        title.innerText = "Videos";
+
+        document.getElementById('imageSlider').style.display = "none";
+        videoContainer.style.display = "block";
+
+        galleryData.videos.forEach(video => {
+            videoContainer.innerHTML += `
+                <video controls class="w-100 mb-2">
+                    <source src="${video}" type="video/mp4">
+                </video>
+            `;
+        });
+    }
+
+    modal.show();
+}
