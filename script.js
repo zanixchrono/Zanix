@@ -11,8 +11,46 @@
 
 // ================= PRODUCTS DATA =================
 const products = [
+
     {
-        id: 1,
+    id: 1,
+    name: 'Tubular Batman Edition',
+    description: `
+    <br><h4>Description</h4>
+    Bold tubular Batman-inspired design<br>
+    Premium sporty look with durable build<br>
+    Comfortable straps for daily wear<br>
+    Stylish choice for casual & street fashion
+    `,
+    price: 'Rs. 3,300',
+
+    colors: [
+        { key: 'blue', label: 'Blue', hex: '#1E4ED8' },
+        { key: 'black', label: 'Black', hex: '#000000' }
+    ],
+
+    images: {
+        blue: [
+            'assets/Tubular batman/IMG1.png',
+            'assets/Tubular batman/IMG2.png',
+            'assets/Tubular batman/IMG3.png',
+            'assets/Tubular batman/IMG4.png',
+            'assets/Tubular batman/IMG5.png'
+        ],
+
+        black: [
+            'assets/Tubular batman/IMG6.png',
+            'assets/Tubular batman/IMG7.png',
+            'assets/Tubular batman/IMG8.png',
+            'assets/Tubular batman/IMG9.png'
+        ]
+    },
+
+    cardImage: 'assets/Tubular batman/IMG1.png'
+},
+
+    {
+        id: 2,
         name: 'Hublot Master Lock',
         description: `
         <br><h4>Description</h4>
@@ -45,7 +83,7 @@ const products = [
     },
 
 {
-    id: 2,
+    id: 3,
     name: 'Tissort Chronograph Working',
     description: `
     <br><h4>Description</h4>
@@ -82,7 +120,7 @@ const products = [
 },
 
 //     {
-//     id: 3,
+//     id: 4,
 //     name: 'Semi Automatic Rolex',
 //     description: `
 //     <br><h4>Description</h4>
@@ -111,7 +149,7 @@ const products = [
 //     cardImage: 'assets/ROLEX-SEMIAUTOMETIC/IMG1.png'
 // },
     {
-    id: 4,
+    id: 5,
     name: 'Patek Philippe Stainless Steel',
     description: `
     <br><h4>Description</h4>
@@ -151,7 +189,7 @@ const products = [
     cardImage: 'assets/PETAK-PHILLIP/IMG1.png'
 },
 {
-    id: 5,
+    id: 6,
     name: 'Cartier Tank',
     description: `
     <br><h4>Description</h4>
@@ -185,7 +223,7 @@ const products = [
     cardImage: 'assets/CARTIER-TANK/IMG1.png'
 },
 {
-    id: 6,
+    id: 7,
     name: 'Hublot Heavy Chain Watch for Mens',
     description: `
     <br><h4>Description</h4>
@@ -214,7 +252,7 @@ const products = [
     cardImage: 'assets/HUBLOT-CHAIN/IMG1.png'
 },
 {
-        id: 7,
+        id: 8,
         name: 'Careera Leather Straps',
         description: `
         <br><h4>Description</h4>
@@ -252,7 +290,7 @@ const products = [
         cardImage: 'assets/CAREERA/IMG2.png'
     },
 {
-    id: 8,
+    id: 9,
     name: 'Tissort Stainless Steel Premium Quality',
     description: `
     <br><h4>Description</h4>
@@ -296,7 +334,7 @@ const products = [
     cardImage: 'assets/TISSORT/IMG5.png'
 },
 {
-    id: 9,
+    id: 10,
     name: 'Heavy Weight Black Aura Watch, 145g ',
     description: `
     <br><h4>Description</h4>
@@ -324,7 +362,7 @@ const products = [
     cardImage: 'assets/AURA METAL/IMG1.png'
 },
 // {
-//     id: 10,
+//     id: 11,
 //     name: 'T24 Champion Edition Smart Watch 7 in 1 Straps',
 //     description: `
 //     <br><h4>Description</h4>
@@ -354,7 +392,7 @@ const products = [
 //     cardImage: 'assets/SMART WATCH/IMG1.png'
 // },
 // {
-//     id: 11,
+//     id: 12,
 //     name: 'Golden Rolex, Light Weight Watch',
 //     description: `
 //     <br><h4>Description</h4>
@@ -383,7 +421,7 @@ const products = [
 //     cardImage: 'assets/ROLEX FULL GOLD/IMG1.png'
 // },
 {
-    id: 12,
+    id: 13,
     name: 'Rolex Master Two Tone Silver&Gold',
     description: `
     <br><h4>Description</h4>
@@ -413,7 +451,7 @@ const products = [
     cardImage: 'assets/ROLEX MASTERLOCK/IMG1.png'
 },
 {
-        id: 13,
+        id: 14,
         name: 'Rolex Yacht-Master | Gold Edition',
         description: `
         <br><h4>Description</h4>
@@ -439,7 +477,7 @@ const products = [
         cardImage: 'assets/ROLEX-YACH-MASTER/IMG1.png'
     },
 // {
-//     id: 14,
+//     id: 15,
 //     name: 'Aura Watch In Fiber Light Weight',
 //     description: `
 //     <br><h4>Description</h4>
@@ -465,7 +503,7 @@ const products = [
 //     cardImage: 'assets/AURA FIBER/IMG1.png'
 // },
 // {
-//     id: 15,
+//     id: 16,
 //     name: "Richard Mille Style Men's Watch",
 //     description: `
 //     <br><h4>Description</h4>
@@ -500,7 +538,7 @@ const products = [
 //     cardImage: 'assets/RECHARD-MIL/IMG1.png'
 // },
 // {
-//     id: 16,
+//     id: 17,
 //     name: 'Rolex Chain Watch In Two Tone Black & Silver',
 //     description: `
 //     <br><h4>Description</h4>
