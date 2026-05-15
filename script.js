@@ -22,7 +22,8 @@ const products = [
     Comfortable straps for daily wear<br>
     Stylish choice for casual & street fashion
     `,
-    price: 'Rs. 3,300',
+    price: 3300,
+    oldPrice: 4714,
 
     colors: [
         { key: 'blue', label: 'Blue', hex: '#1E4ED8' },
@@ -31,22 +32,22 @@ const products = [
 
     images: {
         blue: [
-            'assets/Tubular batman/IMG1.png',
-            'assets/Tubular batman/IMG2.png',
-            'assets/Tubular batman/IMG3.png',
-            'assets/Tubular batman/IMG4.png',
-            'assets/Tubular batman/IMG5.png'
+            'assets/Tubular batman/IMG1.jpeg',
+            'assets/Tubular batman/IMG2.jpeg',
+            'assets/Tubular batman/IMG3.jpeg',
+            'assets/Tubular batman/IMG4.jpeg',
+            'assets/Tubular batman/IMG5.jpeg'
         ],
 
         black: [
-            'assets/Tubular batman/IMG6.png',
-            'assets/Tubular batman/IMG7.png',
-            'assets/Tubular batman/IMG8.png',
-            'assets/Tubular batman/IMG9.png'
+            'assets/Tubular batman/IMG6.jpeg',
+            'assets/Tubular batman/IMG7.jpeg',
+            'assets/Tubular batman/IMG8.jpeg',
+            'assets/Tubular batman/IMG9.jpeg'
         ]
     },
 
-    cardImage: 'assets/Tubular batman/IMG1.png'
+    cardImage: 'assets/Tubular batman/IMG1.jpeg'
 },
 
     {
