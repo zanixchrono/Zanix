@@ -12,8 +12,48 @@
 // ================= PRODUCTS DATA =================
 const products = [
 
-    {
+{
     id: 1,
+    name: 'Tomi Full Black',
+    description: `
+    <br><h4>Description</h4>
+    Elegant full black design with premium finish<br>
+    Comfortable leather straps for daily wear<br>
+    Durable build with stylish modern look<br>
+    Perfect watch for men and boys
+    `,
+    price: 1800,
+    oldPrice: 2571,
+
+    colors: [
+        { key: 'black', label: 'Black', hex: '#000000' },
+        { key: 'gray', label: 'Gray', hex: '#808080' }
+    ],
+
+    images: {
+        black: [
+            'assets/TOMI-LEATHER-STRAPS/IMG1.jpeg',
+            'assets/TOMI-LEATHER-STRAPS/IMG2.jpeg',
+            'assets/TOMI-LEATHER-STRAPS/IMG3.jpeg',
+            'assets/TOMI-LEATHER-STRAPS/IMG4.jpeg',
+            'assets/TOMI-LEATHER-STRAPS/IMG5.jpeg',
+            'assets/TOMI-LEATHER-STRAPS/IMG6.jpeg'
+        ],
+
+        gray: [
+            'assets/TOMI-LEATHER-STRAPS/IMG7.jpeg',
+            'assets/TOMI-LEATHER-STRAPS/IMG8.jpeg',
+            'assets/TOMI-LEATHER-STRAPS/IMG9.jpeg',
+            'assets/TOMI-LEATHER-STRAPS/IMG10.jpeg',
+            'assets/TOMI-LEATHER-STRAPS/IMG11.jpeg'
+        ]
+    },
+
+    cardImage: 'assets/TOMI-LEATHER-STRAPS/IMG1.jpeg'
+},
+
+{
+    id: 2,
     name: 'Tubular Batman Edition',
     description: `
     <br><h4>Description</h4>
@@ -22,12 +62,13 @@ const products = [
     Comfortable straps for daily wear<br>
     Stylish choice for casual & street fashion
     `,
-    price: 3300,
-    oldPrice: 4714,
+    price: 2900,
+    oldPrice: 4143,
 
     colors: [
         { key: 'blue', label: 'Blue', hex: '#1E4ED8' },
-        { key: 'black', label: 'Black', hex: '#000000' }
+        { key: 'brown', label: 'Brown', hex: '#8B4513' },
+        { key: 'darkbrown', label: 'Dark Brown', hex: '#5C4033' }
     ],
 
     images: {
@@ -39,11 +80,12 @@ const products = [
             'assets/Tubular batman/IMG5.jpeg'
         ],
 
-        black: [
-            'assets/Tubular batman/IMG6.jpeg',
-            'assets/Tubular batman/IMG7.jpeg',
-            'assets/Tubular batman/IMG8.jpeg',
-            'assets/Tubular batman/IMG9.jpeg'
+        brown: [
+            'assets/Tubular batman/IMG11.jpeg'
+        ],
+
+        darkbrown: [
+            'assets/Tubular batman/IMG10.jpeg'
         ]
     },
 
@@ -51,7 +93,7 @@ const products = [
 },
 
     {
-        id: 2,
+        id: 3,
         name: 'Hublot Master Lock',
         description: `
         <br><h4>Description</h4>
@@ -84,7 +126,7 @@ const products = [
     },
 
 {
-    id: 3,
+    id: 4,
     name: 'Tissort Chronograph Working',
     description: `
     <br><h4>Description</h4>
@@ -93,8 +135,8 @@ const products = [
     Functional sub-dials for sporty look<br>
     Perfect for both casual & formal wear
     `,
-    price: 3800,
-    oldPrice: 5429,
+    price: 3500,
+    oldPrice: 5000,
 
     colors: [
         { key: 'black', label: 'Black', hex: '#000000' },
@@ -121,7 +163,7 @@ const products = [
 },
 
 //     {
-//     id: 4,
+//     id: 5,
 //     name: 'Semi Automatic Rolex',
 //     description: `
 //     <br><h4>Description</h4>
@@ -150,7 +192,7 @@ const products = [
 //     cardImage: 'assets/ROLEX-SEMIAUTOMETIC/IMG1.png'
 // },
     {
-    id: 5,
+    id: 6,
     name: 'Patek Philippe Stainless Steel',
     description: `
     <br><h4>Description</h4>
@@ -187,10 +229,90 @@ const products = [
         ]
     },
 
-    cardImage: 'assets/PETAK-PHILLIP/IMG1.png'
+    cardImage: 'assets/PETAK-PHILLIP/IMG2.png'
 },
+
 {
-    id: 6,
+    id: 7,
+    name: 'Roles GMT Master Aemi Auto',
+    description: `
+    <br><h4>Description</h4>
+    Premium GMT Master inspired design<br>
+    Automatic style dial with elegant finish<br>
+    Durable build for everyday wear<br>
+    Perfect choice for men who love luxury styling
+    `,
+    price: 3400,
+    oldPrice: 4857,
+
+    colors: [
+        { key: 'black', label: 'Black', hex: '#000000' }
+    ],
+
+    images: {
+        black: [
+            'assets/Rolex-gmt-master/IMG1.jpeg',
+            'assets/Rolex-gmt-master/IMG2.jpeg',
+            'assets/Rolex-gmt-master/IMG3.jpeg'
+        ]
+    },
+
+    cardImage: 'assets/Rolex-gmt-master/IMG1.jpeg'
+},
+
+{
+    id: 8,
+    name: 'Careera Leather Straps',
+    description: `
+    <br><h4>Description</h4>
+    Premium leather straps<br>
+    Elegant butterfly push button lock<br>
+    Stainless steel case (front & back)<br>
+    Day & Date working<br>
+    Comfortable for daily & office wear<br>
+    <b>Special Discount Offer – Get yours now at a limited-time price!</b>
+    `,
+    price: 2400,
+    oldPrice: 3428,
+
+    colors: [
+        { key: 'fullBlack', label: 'Full Black', hex: '#111111' },
+        { key: 'black', label: 'Black', hex: '#000000' },
+        { key: 'brown', label: 'Brown', hex: '#8B4513' },
+        { key: 'darkBrown', label: 'Dark Brown', hex: '#5C4033' }
+    ],
+
+    images: {
+        fullBlack: [
+            'assets/CAREERA/IMG10.jpeg',
+            'assets/CAREERA/IMG11.jpeg',
+            'assets/CAREERA/IMG12.jpeg',
+            'assets/CAREERA/IMG13.jpeg'
+        ],
+
+        brown: [
+            'assets/CAREERA/IMG6.png',
+            'assets/CAREERA/IMG7.png',
+            'assets/CAREERA/IMG8.png'
+        ],
+
+        darkBrown: [
+            'assets/CAREERA/IMG9.png'
+        ],
+
+        black: [
+            'assets/CAREERA/IMG1.png',
+            'assets/CAREERA/IMG2.png',
+            'assets/CAREERA/IMG3.png',
+            'assets/CAREERA/IMG4.png',
+            'assets/CAREERA/IMG5.png'
+        ]
+    },
+
+    cardImage: 'assets/CAREERA/IMG10.jpeg'
+},
+    {
+    id: 8,
     name: 'Cartier Tank',
     description: `
     <br><h4>Description</h4>
@@ -224,74 +346,7 @@ const products = [
     cardImage: 'assets/CARTIER-TANK/IMG1.png'
 },
 {
-    id: 7,
-    name: 'Hublot Heavy Chain Watch for Mens',
-    description: `
-    <br><h4>Description</h4>
-    Premium stainless steel chain watch<br>
-    Chronograph style with date function<br>
-    Bold luxury look for men & boys<br>
-    Perfect for daily wear & special occasions
-    `,
-    price:  2900,
-    oldPrice: 4143,
-
-    colors: [
-        { key: 'black', label: 'Black', hex: '#000000' }
-    ],
-
-    images: {
-        black: [
-            'assets/HUBLOT-CHAIN/IMG1.png',
-            'assets/HUBLOT-CHAIN/IMG2.png',
-            'assets/HUBLOT-CHAIN/IMG3.png',
-            'assets/HUBLOT-CHAIN/IMG4.png',
-            'assets/HUBLOT-CHAIN/IMG5.png'
-        ]
-    },
-
-    cardImage: 'assets/HUBLOT-CHAIN/IMG1.png'
-},
-{
-        id: 8,
-        name: 'Careera Leather Straps',
-        description: `
-        <br><h4>Description</h4>
-        Premium leather straps<br>
-        Elegant butterfly push button lock<br>
-        Stainless steel case (front & back)<br>
-        Day & Date working<br>
-        Comfortable for daily & office wear<br>
-        <b>Special Discount Offer – Get yours now at a limited-time price!</b>
-        `,
-        price:  2400,
-        oldPrice: 3428,
-        colors: [
-            { key: 'black', label: 'Black', hex: '#000000' },
-            { key: 'brown', label: 'Brown', hex: '#8B4513' },
-            { key: 'darkBrown', label: 'Dark Brown', hex: '#5C4033' }
-        ],
-        images: {
-            black: [
-                'assets/CAREERA/IMG1.png',
-                'assets/CAREERA/IMG2.png',
-                'assets/CAREERA/IMG3.png',
-                'assets/CAREERA/IMG4.png',
-                'assets/CAREERA/IMG5.png'
-            ],
-            brown: [
-                'assets/CAREERA/IMG6.png',
-                'assets/CAREERA/IMG7.png',
-                'assets/CAREERA/IMG8.png'
-            ],
-            darkBrown: [
-                'assets/CAREERA/IMG9.png'
-            ]
-        },
-        cardImage: 'assets/CAREERA/IMG2.png'
-    },
-{
-    id: 9,
+    id: 11,
     name: 'Tissort Stainless Steel Premium Quality',
     description: `
     <br><h4>Description</h4>
@@ -335,7 +390,7 @@ const products = [
     cardImage: 'assets/TISSORT/IMG5.png'
 },
 {
-    id: 10,
+    id: 12,
     name: 'Heavy Weight Black Aura Watch, 145g ',
     description: `
     <br><h4>Description</h4>
@@ -363,7 +418,7 @@ const products = [
     cardImage: 'assets/AURA METAL/IMG1.png'
 },
 // {
-//     id: 11,
+//     id: 13,
 //     name: 'T24 Champion Edition Smart Watch 7 in 1 Straps',
 //     description: `
 //     <br><h4>Description</h4>
@@ -393,7 +448,7 @@ const products = [
 //     cardImage: 'assets/SMART WATCH/IMG1.png'
 // },
 // {
-//     id: 12,
+//     id: 14,
 //     name: 'Golden Rolex, Light Weight Watch',
 //     description: `
 //     <br><h4>Description</h4>
@@ -422,7 +477,7 @@ const products = [
 //     cardImage: 'assets/ROLEX FULL GOLD/IMG1.png'
 // },
 {
-    id: 13,
+    id: 15,
     name: 'Rolex Master Two Tone Silver&Gold',
     description: `
     <br><h4>Description</h4>
@@ -452,7 +507,7 @@ const products = [
     cardImage: 'assets/ROLEX MASTERLOCK/IMG1.png'
 },
 {
-        id: 14,
+        id: 16,
         name: 'Rolex Yacht-Master | Gold Edition',
         description: `
         <br><h4>Description</h4>
@@ -478,7 +533,7 @@ const products = [
         cardImage: 'assets/ROLEX-YACH-MASTER/IMG1.png'
     },
 // {
-//     id: 15,
+//     id: 17,
 //     name: 'Aura Watch In Fiber Light Weight',
 //     description: `
 //     <br><h4>Description</h4>
@@ -504,7 +559,7 @@ const products = [
 //     cardImage: 'assets/AURA FIBER/IMG1.png'
 // },
 // {
-//     id: 16,
+//     id: 18,
 //     name: "Richard Mille Style Men's Watch",
 //     description: `
 //     <br><h4>Description</h4>
@@ -539,7 +594,7 @@ const products = [
 //     cardImage: 'assets/RECHARD-MIL/IMG1.png'
 // },
 // {
-//     id: 17,
+//     id: 19,
 //     name: 'Rolex Chain Watch In Two Tone Black & Silver',
 //     description: `
 //     <br><h4>Description</h4>
@@ -950,11 +1005,19 @@ const galleryData = {
         "assets/reviews/IMG4.png",
         "assets/reviews/IMG5.png",
         "assets/reviews/IMG6.png",
+        "assets/reviews/IMG7.jpeg",
+        "assets/reviews/IMG8.jpeg",
+        "assets/reviews/IMG9.jpeg",
+        "assets/reviews/IMG10.jpeg",
+        "assets/reviews/IMG11.jpeg",
     ],
     videos: [
         "assets/reviews/video1.mp4",
         "assets/reviews/video2.mp4",
-        "assets/reviews/video3.mp4"
+        "assets/reviews/video3.mp4",
+         "assets/reviews/video4.mp4",
+          "assets/reviews/video5.mp4",
+           "assets/reviews/video6.mp4"
     ]
 };
 function openGallery(type) {
