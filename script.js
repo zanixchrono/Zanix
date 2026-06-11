@@ -788,6 +788,9 @@ function selectColor(colorKey, colorName, el) {
 document.getElementById('orderForm').addEventListener('submit', function (e) {
     e.preventDefault();
 
+    // Redirect to thank you page
+    window.location.href = "thankyou.html";
+
     const customerName = document.getElementById('customerName').value;
     const customerPhone = document.getElementById('customerPhone').value;
     const customerEmail = document.getElementById('customerEmail').value;
